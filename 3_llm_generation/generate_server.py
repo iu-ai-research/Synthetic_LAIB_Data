@@ -160,8 +160,8 @@ for ORG_SAMPLE_FILE in ORG_SAMPLE_FILES:
             }
         ]
 
-        # Read the CSV data for the N-Shot Examples, e.g. ./1_sample_preperation/org_samples/d_clean_remove_small_samples_ipr/rs_size_100.csv"
-        with open(f"./../1_sample_preperation/org_samples/{ORG_FOLDER}/{ORG_SAMPLE_FILE}.csv", "r") as f:
+        # Read the CSV data for the N-Shot Examples, e.g. ./1_sample_preparation/org_samples/d_clean_remove_small_samples_ipr/rs_size_100.csv"
+        with open(f"./../1_sample_preparation/org_samples/{ORG_FOLDER}/{ORG_SAMPLE_FILE}.csv", "r") as f:
             csv_data = f.read()
 
         # Read the CSV data for the statistical description, e.g. ./2_prompt_engineering/d_clean_remove_small_samples_stats" if the stats file doesn't exist replace it with an empty string.
