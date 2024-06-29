@@ -1,0 +1,425 @@
+### Grouped Statistics by Target Material
+Below are the calculated statistics for each feature grouped by the target material:
+
+#### Aluminium - Count: 11
+- Target Thickness
+  - Mean: 5.77
+  - Median: 5
+  - Variance: 24.9
+  - 10th Percentile (Q10): 3
+  - 25th Percentile (Q25): 4
+  - 75th Percentile (Q75): 5.5
+  - 90th Percentile (Q90): 6
+  - Min: 0.5
+  - Max: 20
+
+- Pulse Width
+  - Mean: 1130
+  - Median: 60
+  - Variance: 3,550,000
+  - 10th Percentile (Q10): 30
+  - 25th Percentile (Q25): 45
+  - 75th Percentile (Q75): 1500
+  - 90th Percentile (Q90): 3000
+  - Min: 24
+  - Max: 6000
+
+- Energy
+  - Mean: 189
+  - Median: 10
+  - Variance: 99,200
+  - 10th Percentile (Q10): 7
+  - 25th Percentile (Q25): 9.6
+  - 75th Percentile (Q75): 260
+  - 90th Percentile (Q90): 500
+  - Min: 6
+  - Max: 1000
+
+- Spot Size
+  - Mean: 25.7
+  - Median: 9.7
+  - Variance: 753
+  - 10th Percentile (Q10): 2.5
+  - 25th Percentile (Q25): 2.65
+  - 75th Percentile (Q75): 60
+  - 90th Percentile (Q90): 60
+  - Min: 2.5
+  - Max: 60
+
+- Intensity
+  - Mean: 1.28e21
+  - Median: 5.68e19
+  - Variance: 3.01e42
+  - 10th Percentile (Q10): 4.09e18
+  - 25th Percentile (Q25): 4.25e18
+  - 75th Percentile (Q75): 3.14e21
+  - 90th Percentile (Q90): 3.14e21
+  - Min: 4.09e18
+  - Max: 4.32e21
+
+- Power
+  - Mean: 1.92e14
+  - Median: 1.80e14
+  - Variance: 6.44e27
+  - 10th Percentile (Q10): 1.17e14
+  - 25th Percentile (Q25): 1.67e14
+  - 75th Percentile (Q75): 2.22e14
+  - 90th Percentile (Q90): 2.22e14
+  - Min: 6.06e13
+  - Max: 3.83e14
+
+- Cutoff Energy
+  - Mean: 18.7
+  - Median: 16
+  - Variance: 64.5
+  - 10th Percentile (Q10): 10
+  - 25th Percentile (Q25): 14.5
+  - 75th Percentile (Q75): 23.7
+  - 90th Percentile (Q90): 29
+  - Min: 8
+  - Max: 33
+
+#### Gold - Count: 62
+- Target Thickness
+  - Mean: 6.72
+  - Median: 4
+  - Variance: 246
+  - 10th Percentile (Q10): 1.1
+  - 25th Percentile (Q25): 4
+  - 75th Percentile (Q75): 4
+  - 90th Percentile (Q90): 10
+  - Min: 1
+  - Max: 12.5
+
+- Pulse Width
+  - Mean: 2490
+  - Median: 500
+  - Variance: 11,700,000
+  - 10th Percentile (Q10): 200
+  - 25th Percentile (Q25): 475
+  - 75th Percentile (Q75): 3140
+  - 90th Percentile (Q90): 7500
+  - Min: 200
+  - Max: 12900
+
+- Energy
+  - Mean: 81.8
+  - Median: 88.7
+  - Variance: 2470
+  - 10th Percentile (Q10): 10
+  - 25th Percentile (Q25): 42.2
+  - 75th Percentile (Q75): 117
+  - 90th Percentile (Q90): 148
+  - Min: 2.27
+  - Max: 180
+
+- Spot Size
+  - Mean: 4.06
+  - Median: 2.86
+  - Variance: 24.2
+  - 10th Percentile (Q10): 2.4
+  - 25th Percentile (Q25): 2.52
+  - 75th Percentile (Q75): 3.77
+  - 90th Percentile (Q90): 4.42
+  - Min: 2.13
+  - Max: 30
+
+- Intensity
+  - Mean: 1.33e21
+  - Median: 5.15e20
+  - Variance: 2.43e42
+  - 10th Percentile (Q10): 4.20e19
+  - 25th Percentile (Q25): 8.23e19
+  - 75th Percentile (Q75): 2.60e21
+  - 90th Percentile (Q90): 3.75e21
+  - Min: 1.05e18
+  - Max: 5.59e21
+
+- Power
+  - Mean: 1.17e14
+  - Median: 6.26e13
+  - Variance: 1.28e28
+  - 10th Percentile (Q10): 5.80e12
+  - 25th Percentile (Q25): 1.51e13
+  - 75th Percentile (Q75): 2.25e14
+  - 90th Percentile (Q90): 2.86e14
+  - Min: 1.76e11
+  - Max: 3.33e14
+
+- Cutoff Energy
+  - Mean: 26.2
+  - Median: 20.1
+  - Variance: 234
+  - 10th Percentile (Q10): 10.8
+  - 25th Percentile (Q25): 13.2
+  - 75th Percentile (Q75): 39.7
+  - 90th Percentile (Q90): 44.7
+  - Min: 7.2
+  - Max: 70.2
+
+#### Plastic - Count: 947
+- Target Thickness
+  - Mean: 0.579
+  - Median: 0.581
+  - Variance: 0.044
+  - 10th Percentile (Q10): 0.27
+  - 25th Percentile (Q25): 0.468
+  - 75th Percentile (Q75): 0.718
+  - 90th Percentile (Q90): 0.836
+  - Min: 0
+  - Max: 1.11
+
+- Pulse Width
+  - Mean: 127
+  - Median: 30
+  - Variance: 16800
+  - 10th Percentile (Q10): 30
+  - 25th Percentile (Q25): 30
+  - 75th Percentile (Q75): 279
+  - 90th Percentile (Q90): 279
+  - Min: 30
+  - Max: 463
+
+- Energy
+  - Mean: 2.20
+  - Median: 2.34
+  - Variance: 0.119
+  - 10th Percentile (Q10): 1.55
+  - 25th Percentile (Q25): 2.30
+  - 75th Percentile (Q75): 2.39
+  - 90th Percentile (Q90): 2.42
+  - Min: 0.302
+  - Max: 2.50
+
+- Spot Size
+  - Mean: 3.3
+  - Median: 3.3
+  - Variance: 0
+  - 10th Percentile (Q10): 3.3
+  - 25th Percentile (Q25): 3.3
+  - 75th Percentile (Q75): 3.3
+  - 90th Percentile (Q90): 3.3
+  - Min: 3.3
+  - Max: 3.3
+
+- Intensity
+  - Mean: 3.93e20
+  - Median: 6.21e20
+  - Variance: 7.47e40
+  - 10th Percentile (Q10): 4.53e19
+  - 25th Percentile (Q25): 6.82e19
+  - 75th Percentile (Q75): 6.39e20
+  - 90th Percentile (Q90): 6.53e20
+  - Min: 4.07e19
+  - Max: 6.75e20
+
+- Power
+  - Mean: 4.84e13
+  - Median: 7.66e13
+  - Variance: 1.14e27
+  - 10th Percentile (Q10): 5.58e12
+  - 25th Percentile (Q25): 8.41e12
+  - 75th Percentile (Q75): 7.88e13
+  - 90th Percentile (Q90): 8.05e13
+  - Min: 5.02e12
+  - Max: 8.33e13
+
+- Cutoff Energy
+  - Mean: 5.08
+  - Median: 4.8
+  - Variance: 1.09
+  - 10th Percentile (Q10): 4
+  - 25th Percentile (Q25): 4.3
+  - 75th Percentile (Q75): 6.1
+  - 90th Percentile (Q90): 6.74
+  - Min: 3.3
+  - Max: 10.5
+
+#### Polypropylene - Count: 9
+- Target Thickness
+  - Mean: 3.72
+  - Median: 0.8
+  - Variance: 22.2
+  - 10th Percentile (Q10): 0.26
+  - 25th Percentile (Q25): 0.5
+  - 75th Percentile (Q75): 10
+  - 90th Percentile (Q90): 10
+  - Min: 0.1
+  - Max: 10
+
+- Pulse Width
+  - Mean: 500
+  - Median: 500
+  - Variance: 0
+  - 10th Percentile (Q10): 500
+  - 25th Percentile (Q25): 500
+  - 75th Percentile (Q75): 500
+  - 90th Percentile (Q90): 500
+  - Min: 500
+  - Max: 500
+
+- Energy
+  - Mean: 143
+  - Median: 143
+  - Variance: 161
+  - 10th Percentile (Q10): 131
+  - 25th Percentile (Q25): 135
+  - 75th Percentile (Q75): 154
+  - 90th Percentile (Q90): 157
+  - Min: 126
+  - Max: 164
+
+- Spot Size
+  - Mean: 5.18
+  - Median: 4.46
+  - Variance: 3.57
+  - 10th Percentile (Q10): 4.24
+  - 25th Percentile (Q25): 4.35
+  - 75th Percentile (Q75): 4.75
+  - 90th Percentile (Q90): 6.36
+  - Min: 4.17
+  - Max: 10.1
+
+- Intensity
+  - Mean: 1.14e21
+  - Median: 1.23e21
+  - Variance: 1.63e41
+  - 10th Percentile (Q10): 6.51e20
+  - 25th Percentile (Q25): 1.20e21
+  - 75th Percentile (Q75): 1.33e21
+  - 90th Percentile (Q90): 1.43e21
+  - Min: 2.33e20
+  - Max: 1.58e21
+
+- Power
+  - Mean: 2.87e14
+  - Median: 2.85e14
+  - Variance: 6.45e26
+  - 10th Percentile (Q10): 2.61e14
+  - 25th Percentile (Q25): 2.71e14
+  - 75th Percentile (Q75): 3.08e14
+  - 90th Percentile (Q90): 3.15e14
+  - Min: 2.51e14
+  - Max: 3.29e14
+
+- Cutoff Energy
+  - Mean: 54.2
+  - Median: 54.5
+  - Variance: 250
+  - 10th Percentile (Q10): 37.9
+  - 25th Percentile (Q25): 49.2
+  - 75th Percentile (Q75): 54.5
+  - 90th Percentile (Q90): 76.4
+  - Min: 29.8
+  - Max: 80.8
+
+#### Polystyrene - Count: 38
+- Target Thickness
+  - Mean: 0.653
+  - Median: 0.4
+  - Variance: 0.209
+  - 10th Percentile (Q10): 0.3
+  - 25th Percentile (Q25): 0.3
+  - 75th Percentile (Q75): 1
+  - 90th Percentile (Q90): 1.29
+  - Min: 0.05
+  - Max: 1.5
+
+- Pulse Width
+  - Mean: 497
+  - Median: 500
+  - Variance: 60.5
+  - 10th Percentile (Q10): 475
+  - 25th Percentile (Q25): 500
+  - 75th Percentile (Q75): 500
+  - 90th Percentile (Q90): 500
+  - Min: 475
+  - Max: 500
+
+- Energy
+  - Mean: 114
+  - Median: 127
+  - Variance: 2130
+  - 10th Percentile (Q10): 39.2
+  - 25th Percentile (Q25): 104
+  - 75th Percentile (Q75): 140
+  - 90th Percentile (Q90): 159
+  - Min: 3.16
+  - Max: 175
+
+- Spot Size
+  - Mean: 3.73
+  - Median: 3.48
+  - Variance: 1.17
+  - 10th Percentile (Q10): 2.58
+  - 25th Percentile (Q25): 2.95
+  - 75th Percentile (Q75): 4.61
+  - 90th Percentile (Q90): 5.29
+  - Min: 2.17
+  - Max: 6.23
+
+- Intensity
+  - Mean: 1.72e21
+  - Median: 1.38e21
+  - Variance: 1.38e42
+  - 10th Percentile (Q10): 5.78e20
+  - 25th Percentile (Q25): 8.57e20
+  - 75th Percentile (Q75): 2.33e21
+  - 90th Percentile (Q90): 3.47e21
+  - Min: 6.43e19
+  - Max: 4.31e21
+
+- Power
+  - Mean: 2.29e14
+  - Median: 2.56e14
+  - Variance: 8.53e27
+  - 10th Percentile (Q10): 7.85e13
+  - 25th Percentile (Q25): 2.09e14
+  - 75th Percentile (Q75): 2.81e14
+  - 90th Percentile (Q90): 3.17e14
+  - Min: 6.32e12
+  - Max: 3.50e14
+
+- Cutoff Energy
+  - Mean: 55.1
+  - Median: 60.8
+  - Variance: 410
+  - 10th Percentile (Q10): 21.8
+  - 25th Percentile (Q25): 46.7
+  - 75th Percentile (Q75): 67
+  - 90th Percentile (Q90): 72.9
+  - Min: 7
+  - Max: 95
+
+### Bivariate Statistics
+Below are the calculated bivariate statistics for pairs of features:
+
+#### Target Thickness and Energy
+- Pearson Correlation: 0.250
+- Spearman Correlation: 0.391
+- Covariance: 4.98e1
+
+#### Pulse Width and Energy
+- Pearson Correlation: 0.343
+- Spearman Correlation: 0.150
+- Covariance: 1.69e4
+
+#### Spot Size and Energy
+- Pearson Correlation: 0.646
+- Spearman Correlation: -0.00389
+- Covariance: 1.16e2
+
+#### Intensity and Energy
+- Pearson Correlation: 0.397
+- Spearman Correlation: 0.567
+- Covariance: 1.21e22
+
+#### Power and Energy
+- Pearson Correlation: 0.584
+- Spearman Correlation: 0.609
+- Covariance: 1.80e15
+
+#### Cutoff Energy and Energy
+- Pearson Correlation: 0.672
+- Spearman Correlation: 0.563
+- Covariance: 4.07e2

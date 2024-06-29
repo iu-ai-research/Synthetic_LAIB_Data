@@ -1,0 +1,47 @@
+{
+    "content": "### Sample Data Points\n1. [\"aluminium\", 2.45, 400, 650.0, 50.0, 5.429E+19, 23320000000000, 20.5]\n2. [\"gold\", 6.3, 8200, 42.715, 2.176, 7.891E+19, 15480000000000, 9.8]\n3. [\"copper\", 0.78, 500, 198.2, 3.9, 1.469E+21, 30560000000000, 45.7]\n4. [\"tantalum\", 1.23, 1000, 480.32, 3.7, 2.753E+20, 54370000000000, 16.2]\n5. [\"silver\", 0.734, 750, 210.6, 4.5, 1.825E+20, 38450000000000, 33.4]\n6. [\"iron\", 3.1, 600, 730.0, 55.0, 4.122E+19, 27980000000000, 23.5]\n7. [\"nickel\", 0.921, 300, 140.2, 3.1, 8.200E+20, 140100000000000, 7.8]\n8. [\"tungsten\", 2.67, 1200, 870.5, 6.1, 3.514E+20, 58560000000000, 28.3]\n9. [\"brass\", 4.56, 700, 600.3, 48.0, 5.632E+19, 21650000000000, 17.6]\n10. [\"lead\", 1.5, 850, 420.6, 3.3, 2.166E+20, 45040000000000, 19.3]\n11. [\"zinc\", 1.88, 550, 340.0, 4.7, 1.930E+20, 32870000000000, 14.5]\n12. [\"platinum\", 2.33, 950, 710.3, 5.2, 3.981E+20, 67120000000000, 32.8]\n13. [\"polycarbonate\", 0.482, 200, 130.8, 3.3, 7.642E+20, 100800000000000, 5.9]\n14. [\"quartz\", 0.621, 400, 150.6, 3.6, 8.925E+20, 144200000000000, 8.4]\n15. [\"silicon\", 0.769, 350, 180.5, 4.2, 6.789E+20, 120500000000000, 12.3]\n16. [\"titanium\", 4.32, 800, 570.2, 45.0, 5.279E+19, 19260000000000, 15.7]\n17. [\"nickel\", 0.673, 250, 120.6, 3.0, 6.320E+20, 92540000000000, 6.7]\n18. [\"aluminum\", 1.2, 350, 250.3, 4.1, 1.355E+20, 35430000000000, 9.2]\n19. [\"copper\", 2.01, 700, 420.2, 6.3, 4.211E+20, 77060000000000, 25.7]\n20. [\"lead\", 2.89, 850, 570.8, 40.0, 4.009E+19, 16580000000000, 13.5]\n21. [\"zinc\", 0.482, 300, 170.6, 3.4, 7.890E+20, 103200000000000, 7.3]\n22. [\"iron\", 1.33, 450, 290.5, 4.2, 1.298E+20, 26970000000000, 11.8]\n23. [\"platinum\", 2.77, 900, 690.2, 5.5, 3.786E+20, 62130000000000, 30.7]\n24. [\"quartz\", 0.769, 400, 180.6, 3.9, 8.123E+20, 135400000000000, 9.4]\n25. [\"silicon\", 0.913, 350, 200.3, 4.5, 7.239E+20, 149600000000000, 10.8]",
+    "api_obj": {
+        "id": "chatcmpl-9agTqDElHsiop09xX8PCgI8ZsajjT",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "### Sample Data Points\n1. [\"aluminium\", 2.45, 400, 650.0, 50.0, 5.429E+19, 23320000000000, 20.5]\n2. [\"gold\", 6.3, 8200, 42.715, 2.176, 7.891E+19, 15480000000000, 9.8]\n3. [\"copper\", 0.78, 500, 198.2, 3.9, 1.469E+21, 30560000000000, 45.7]\n4. [\"tantalum\", 1.23, 1000, 480.32, 3.7, 2.753E+20, 54370000000000, 16.2]\n5. [\"silver\", 0.734, 750, 210.6, 4.5, 1.825E+20, 38450000000000, 33.4]\n6. [\"iron\", 3.1, 600, 730.0, 55.0, 4.122E+19, 27980000000000, 23.5]\n7. [\"nickel\", 0.921, 300, 140.2, 3.1, 8.200E+20, 140100000000000, 7.8]\n8. [\"tungsten\", 2.67, 1200, 870.5, 6.1, 3.514E+20, 58560000000000, 28.3]\n9. [\"brass\", 4.56, 700, 600.3, 48.0, 5.632E+19, 21650000000000, 17.6]\n10. [\"lead\", 1.5, 850, 420.6, 3.3, 2.166E+20, 45040000000000, 19.3]\n11. [\"zinc\", 1.88, 550, 340.0, 4.7, 1.930E+20, 32870000000000, 14.5]\n12. [\"platinum\", 2.33, 950, 710.3, 5.2, 3.981E+20, 67120000000000, 32.8]\n13. [\"polycarbonate\", 0.482, 200, 130.8, 3.3, 7.642E+20, 100800000000000, 5.9]\n14. [\"quartz\", 0.621, 400, 150.6, 3.6, 8.925E+20, 144200000000000, 8.4]\n15. [\"silicon\", 0.769, 350, 180.5, 4.2, 6.789E+20, 120500000000000, 12.3]\n16. [\"titanium\", 4.32, 800, 570.2, 45.0, 5.279E+19, 19260000000000, 15.7]\n17. [\"nickel\", 0.673, 250, 120.6, 3.0, 6.320E+20, 92540000000000, 6.7]\n18. [\"aluminum\", 1.2, 350, 250.3, 4.1, 1.355E+20, 35430000000000, 9.2]\n19. [\"copper\", 2.01, 700, 420.2, 6.3, 4.211E+20, 77060000000000, 25.7]\n20. [\"lead\", 2.89, 850, 570.8, 40.0, 4.009E+19, 16580000000000, 13.5]\n21. [\"zinc\", 0.482, 300, 170.6, 3.4, 7.890E+20, 103200000000000, 7.3]\n22. [\"iron\", 1.33, 450, 290.5, 4.2, 1.298E+20, 26970000000000, 11.8]\n23. [\"platinum\", 2.77, 900, 690.2, 5.5, 3.786E+20, 62130000000000, 30.7]\n24. [\"quartz\", 0.769, 400, 180.6, 3.9, 8.123E+20, 135400000000000, 9.4]\n25. [\"silicon\", 0.913, 350, 200.3, 4.5, 7.239E+20, 149600000000000, 10.8]",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1718530130,
+        "model": "gpt-3.5-turbo-0125",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "usage": {
+            "completion_tokens": 1106,
+            "prompt_tokens": 1541,
+            "total_tokens": 2647
+        }
+    },
+    "inputs": [
+        {
+            "role": "system",
+            "content": "Generate synthetic data for laser-accelerated ion beams and verify each step to ensure accuracy. The dataset includes target_material, target_thickness, pulse_width, energy, spot_size, intensity, power, and cutoff_energy. Note that the data is not normally distributed. Follow these steps:\n\n1. Select target_material and verify its distribution.\n2. Choose target_thickness within realistic ranges.\n3. Determine pulse_width and verify its correlation with energy.\n4. Adjust spot_size and verify intensity and power.\n5. Calculate cutoff_energy and verify it against the given examples.\n\nBelow are key univariate statistics for each feature followed by some example data points:"
+        },
+        {
+            "role": "user",
+            "content": "### Statistics\n### Univariate Statistics\nThe dataset consists of several numeric features, each described by key univariate statistics including mean, median, variance, the 10th (Q10) and 90th (Q90) percentiles, minimum, and maximum values. Below are the calculated statistics for each feature:\n\n- Target Thickness\n  - Mean: 1.02\n  - Median: 0.593\n  - Variance: 16.9\n  - 10th Percentile (Q10): 0.273\n  - 25th Percentile (Q25): 0.482\n  - 75th Percentile (Q75): 0.769\n  - 90th Percentile (Q90): 1.0\n  - Min: 0\n  - Max: 125\n\n- Pulse Width\n  - Mean: 291\n  - Median: 30\n  - Variance: 1,030,000\n  - 10th Percentile (Q10): 30\n  - 25th Percentile (Q25): 30\n  - 75th Percentile (Q75): 279\n  - 90th Percentile (Q90): 475\n  - Min: 24\n  - Max: 12,900\n\n- Energy\n  - Mean: 13.9\n  - Median: 2.35\n  - Variance: 2,350\n  - 10th Percentile (Q10): 1.55\n  - 25th Percentile (Q25): 2.31\n  - 75th Percentile (Q75): 2.41\n  - 90th Percentile (Q90): 10\n  - Min: 0.302\n  - Max: 1,000\n\n- Spot Size\n  - Mean: 3.61\n  - Median: 3.3\n  - Variance: 13.7\n  - 10th Percentile (Q10): 3.3\n  - 25th Percentile (Q25): 3.3\n  - 75th Percentile (Q75): 3.3\n  - 90th Percentile (Q90): 3.3\n  - Min: 2.13\n  - Max: 60\n\n- Intensity\n  - Mean: 5.10e20\n  - Median: 6.22e20\n  - Variance: 3.96e41\n  - 10th Percentile (Q10): 4.53e19\n  - 25th Percentile (Q25): 6.83e19\n  - 75th Percentile (Q75): 6.44e20\n  - 90th Percentile (Q90): 6.59e20\n  - Min: 1.05e18\n  - Max: 5.59e21\n\n- Power\n  - Mean: 6.23e13\n  - Median: 7.68e13\n  - Variance: 4.03e27\n  - 10th Percentile (Q10): 5.59e12\n  - 25th Percentile (Q25): 8.45e12\n  - 75th Percentile (Q75): 7.94e13\n  - 90th Percentile (Q90): 8.14e13\n  - Min: 1.76e11\n  - Max: 3.83e14\n\n- Cutoff Energy\n  - Mean: 8.64\n  - Median: 4.8\n  - Variance: 156\n  - 10th Percentile (Q10): 4.0\n  - 25th Percentile (Q25): 4.4\n  - 75th Percentile (Q75): 6.2\n  - 90th Percentile (Q90): 11.7\n  - Min: 3.3\n  - Max: 95\n\n### Bivariate Statistics\nBelow are the calculated bivariate statistics for pairs of features:\n\n#### Target Thickness and Energy\n- Pearson Correlation: 0.250\n- Spearman Correlation: 0.391\n- Covariance: 4.98e1\n\n#### Pulse Width and Energy\n- Pearson Correlation: 0.343\n- Spearman Correlation: 0.150\n- Covariance: 1.69e4\n\n#### Spot Size and Energy\n- Pearson Correlation: 0.646\n- Spearman Correlation: -0.00389\n- Covariance: 1.16e2\n\n#### Intensity and Energy\n- Pearson Correlation: 0.397\n- Spearman Correlation: 0.567\n- Covariance: 1.21e22\n\n#### Power and Energy\n- Pearson Correlation: 0.584\n- Spearman Correlation: 0.609\n- Covariance: 1.80e15\n\n#### Cutoff Energy and Energy\n- Pearson Correlation: 0.672\n- Spearman Correlation: 0.563\n- Covariance: 4.07e2\n\n\n### Example Data Points\n[\"aluminium\", 5.0, 3000, 500.0, 60.0, 4.088E+18, 166700000000000, 29.0]\n[\"gold\", 4.0, 7600, 37.827, 2.552, 6.750E+19, 4977000000000, 7.2]\n[\"polypropylene\", 10.0, 500, 164.43, 4.746, 1.289E+21, 328900000000000, 49.25]\n[\"plastic\", 0.544, 30, 2.373, 3.3, 6.413E+20, 79090000000000, 5.5]\n[\"plastic\", 0.266, 30, 2.342, 3.3, 6.329E+20, 78050000000000, 4.0]\n\nGenerate 25 new data points, verifying each step. The final output should be a complete array of 25 samples, each with the following features: target_material, target_thickness, pulse_width, energy, spot_size, intensity, power, and cutoff_energy. Explicitly show all of the 25 generated samples inside an array."
+        }
+    ],
+    "metadata_gen": {
+        "N": 15,
+        "MODEL": "gpt-3.5-turbo-0125",
+        "ORG_FOLDER": "d_clean_remove_small_samples_ipr",
+        "ORG_SAMPLE_FILE": "rs_size_5",
+        "PROMPT_METHOD": "chain_of_verification",
+        "PROMPT_TEMPLATE": "1prompt_templates_system_stats.json",
+        "STATS": "d_clean_remove_small_samples_stats"
+    }
+}

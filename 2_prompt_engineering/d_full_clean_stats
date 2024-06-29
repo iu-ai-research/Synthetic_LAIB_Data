@@ -1,0 +1,112 @@
+### Univariate Statistics
+The dataset consists of several numeric features, each described by key univariate statistics including mean, median, variance, the 10th (Q10) and 90th (Q90) percentiles, minimum, and maximum values. Below are the calculated statistics for each feature:
+
+- Target Thickness
+  - Mean: 1.32
+  - Median: 0.595
+  - Variance: 28.1
+  - 10th Percentile (Q10): 0.274
+  - 25th Percentile (Q25): 0.494
+  - 75th Percentile (Q75): 0.775
+  - 90th Percentile (Q90): 1.02
+  - Min: 0
+  - Max: 125
+
+- Pulse Width
+  - Mean: 420
+  - Median: 30
+  - Variance: 10,400,000
+  - 10th Percentile (Q10): 30
+  - 25th Percentile (Q25): 30
+  - 75th Percentile (Q75): 279
+  - 90th Percentile (Q90): 475
+  - Min: 24
+  - Max: 99,700
+
+- Energy
+  - Mean: 23.8
+  - Median: 2.36
+  - Variance: 17,200
+  - 10th Percentile (Q10): 1.55
+  - 25th Percentile (Q25): 2.31
+  - 75th Percentile (Q75): 2.41
+  - 90th Percentile (Q90): 27.4
+  - Min: 0.302
+  - Max: 2,600
+
+- Spot Size
+  - Mean: 4.15
+  - Median: 3.3
+  - Variance: 46.2
+  - 10th Percentile (Q10): 3.3
+  - 25th Percentile (Q25): 3.3
+  - 75th Percentile (Q75): 3.3
+  - 90th Percentile (Q90): 3.3
+  - Min: 2.13
+  - Max: 100
+
+- Intensity
+  - Mean: 5.05e20
+  - Median: 6.22e20
+  - Variance: 3.90e41
+  - 10th Percentile (Q10): 4.51e19
+  - 25th Percentile (Q25): 6.82e19
+  - 75th Percentile (Q75): 6.44e20
+  - 90th Percentile (Q90): 6.59e20
+  - Min: 1.05e18
+  - Max: 5.59e21
+
+- Power
+  - Mean: 6.61e13
+  - Median: 7.68e13
+  - Variance: 6.22e27
+  - 10th Percentile (Q10): 5.59e12
+  - 25th Percentile (Q25): 8.46e12
+  - 75th Percentile (Q75): 7.96e13
+  - 90th Percentile (Q90): 8.16e13
+  - Min: 1.76e11
+  - Max: 1.00e15
+
+- Cutoff Energy
+  - Mean: 8.79
+  - Median: 4.8
+  - Variance: 161
+  - 10th Percentile (Q10): 4.0
+  - 25th Percentile (Q25): 4.4
+  - 75th Percentile (Q75): 6.2
+  - 90th Percentile (Q90): 13.2
+  - Min: 0
+  - Max: 95
+
+### Bivariate Statistics
+Below are the calculated bivariate statistics for pairs of features:
+
+#### Target Thickness and Energy
+- Pearson Correlation: 0.525
+- Spearman Correlation: 0.409
+- Covariance: 3.65e2
+
+#### Pulse Width and Energy
+- Pearson Correlation: 0.573
+- Spearman Correlation: 0.175
+- Covariance: 2.42e5
+
+#### Spot Size and Energy
+- Pearson Correlation: 0.769
+- Spearman Correlation: 0.0565
+- Covariance: 6.85e2
+
+#### Intensity and Energy
+- Pearson Correlation: 0.0835
+- Spearman Correlation: 0.517
+- Covariance: 6.84e21
+
+#### Power and Energy
+- Pearson Correlation: 0.391
+- Spearman Correlation: 0.617
+- Covariance: 4.05e15
+
+#### Cutoff Energy and Energy
+- Pearson Correlation: 0.347
+- Spearman Correlation: 0.561
+- Covariance: 5.77e2

@@ -1,0 +1,47 @@
+{
+    "content": "### Synthetic Data for Laser-Accelerated Ion Beams\n\nHere are 25 generated samples based on the provided statistics:\n\n```python\n[\n    ['aluminium', 0.481, 392, 5.35, 4.91, 5.219E+20, 167300000000000, 6.5],\n    ['gold', 1.0, 4575, 99.25, 9.23, 2.491E+21, 436300000000000, 24.5],\n    ['plastic', 0.482, 30, 2.31, 3.3, 1.618E+20, 8964000000000, 4.4],\n    ['polypropylene', 0.769, 280, 2.32, 3.3, 4.887E+19, 33390000000000, 4.4],\n    ['plastic', 0.769, 4699, 2.41, 3.3, 2.875E+21, 227600000000000, 6.2],\n    ['gold', 1.0, 424, 1.55, 3.3, 1.765E+21, 37050000000000, 4.4],\n    ['aluminium', 0.769, 1620, 3.18, 3.3, 5.265E+20, 203500000000000, 8.15],\n    ['aluminium', 1.0, 384, 2.0, 3.3, 5.070E+20, 16550000000000, 3.3],\n    ['polypropylene', 0.769, 412, 2.37, 3.3, 6.008E+20, 24320000000000, 4.0],\n    ['gold', 0.769, 279, 2.4, 3.3, 4.663E+19, 91530000000000, 4.4],\n    ['polypropylene', 0.769, 446, 2.41, 3.3, 8.525E+20, 39280000000000, 4.4],\n    ['plastic', 0.769, 412, 4.8, 9.23, 9.167E+20, 69270000000000, 6.2],\n    ['polypropylene', 1.0, 282, 10.0, 9.23, 2.662E+21, 575000000000000, 11.7],\n    ['gadolinium', 0.273, 593, 46.9, 3.3, 4.595E+20, 117200000000000, 6.2],\n    ['lead', 1.0, 497, 6.0, 3.3, 2.025E+20, 21080000000000, 4.4],\n    ['aluminium', 0.769, 1326, 200.0, 22.6, 1.398E+21, 229900000000000, 94],\n    ['plastic', 0.769, 524, 11.7, 9.23, 5.537E+20, 877800000000000, 11.7],\n    ['polypropylene', 0.769, 475, 6.9, 6.51, 2.958E+20, 1680000000000, 7.2],\n    ['gold', 0.769, 253, 3.3, 3.3, 2.558E+20, 5706000000000, 3.3],\n    ['lead', 0.769, 784, 4.0, 3.3, 3.320E+19, 66870000000000, 4.0],\n    ['polypropylene', 0.769, 467, 2.37, 3.3, 1.185E+20, 17380000000000, 4.4],\n    ['titanium', 1.0, 387, 80.0, 12.6, 1.871E+21, 291900000000000, 49.25],\n    ['aluminium', 0.769, 1381, 4.4, 3.3, 7.757E+20, 28340000000000, 4.4],\n    ['plastic', 0.769, 1453, 6.2, 6.51, 3.701E+20, 46250000000000, 7.2],\n]\n```\n\nThese data points are generated based on the correlations and statistics provided.",
+    "api_obj": {
+        "id": "chatcmpl-9aiSDtkejppRrYd15bJlu1fg5mTQd",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "### Synthetic Data for Laser-Accelerated Ion Beams\n\nHere are 25 generated samples based on the provided statistics:\n\n```python\n[\n    ['aluminium', 0.481, 392, 5.35, 4.91, 5.219E+20, 167300000000000, 6.5],\n    ['gold', 1.0, 4575, 99.25, 9.23, 2.491E+21, 436300000000000, 24.5],\n    ['plastic', 0.482, 30, 2.31, 3.3, 1.618E+20, 8964000000000, 4.4],\n    ['polypropylene', 0.769, 280, 2.32, 3.3, 4.887E+19, 33390000000000, 4.4],\n    ['plastic', 0.769, 4699, 2.41, 3.3, 2.875E+21, 227600000000000, 6.2],\n    ['gold', 1.0, 424, 1.55, 3.3, 1.765E+21, 37050000000000, 4.4],\n    ['aluminium', 0.769, 1620, 3.18, 3.3, 5.265E+20, 203500000000000, 8.15],\n    ['aluminium', 1.0, 384, 2.0, 3.3, 5.070E+20, 16550000000000, 3.3],\n    ['polypropylene', 0.769, 412, 2.37, 3.3, 6.008E+20, 24320000000000, 4.0],\n    ['gold', 0.769, 279, 2.4, 3.3, 4.663E+19, 91530000000000, 4.4],\n    ['polypropylene', 0.769, 446, 2.41, 3.3, 8.525E+20, 39280000000000, 4.4],\n    ['plastic', 0.769, 412, 4.8, 9.23, 9.167E+20, 69270000000000, 6.2],\n    ['polypropylene', 1.0, 282, 10.0, 9.23, 2.662E+21, 575000000000000, 11.7],\n    ['gadolinium', 0.273, 593, 46.9, 3.3, 4.595E+20, 117200000000000, 6.2],\n    ['lead', 1.0, 497, 6.0, 3.3, 2.025E+20, 21080000000000, 4.4],\n    ['aluminium', 0.769, 1326, 200.0, 22.6, 1.398E+21, 229900000000000, 94],\n    ['plastic', 0.769, 524, 11.7, 9.23, 5.537E+20, 877800000000000, 11.7],\n    ['polypropylene', 0.769, 475, 6.9, 6.51, 2.958E+20, 1680000000000, 7.2],\n    ['gold', 0.769, 253, 3.3, 3.3, 2.558E+20, 5706000000000, 3.3],\n    ['lead', 0.769, 784, 4.0, 3.3, 3.320E+19, 66870000000000, 4.0],\n    ['polypropylene', 0.769, 467, 2.37, 3.3, 1.185E+20, 17380000000000, 4.4],\n    ['titanium', 1.0, 387, 80.0, 12.6, 1.871E+21, 291900000000000, 49.25],\n    ['aluminium', 0.769, 1381, 4.4, 3.3, 7.757E+20, 28340000000000, 4.4],\n    ['plastic', 0.769, 1453, 6.2, 6.51, 3.701E+20, 46250000000000, 7.2],\n]\n```\n\nThese data points are generated based on the correlations and statistics provided.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1718537717,
+        "model": "gpt-3.5-turbo-0125",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "usage": {
+            "completion_tokens": 1084,
+            "prompt_tokens": 1531,
+            "total_tokens": 2615
+        }
+    },
+    "inputs": [
+        {
+            "role": "system",
+            "content": "Work backward to generate synthetic data for laser-accelerated ion beams. Given the final feature, cutoff_energy, determine the preceding features step-by-step. The features include target_material, target_thickness, pulse_width, energy, spot_size, intensity, power, and cutoff_energy. Note that the data is not normally distributed. Here are key univariate statistics for each feature followed by some example data points:\n\nExamples:"
+        },
+        {
+            "role": "user",
+            "content": "### Statistics\n### Univariate Statistics\nThe dataset consists of several numeric features, each described by key univariate statistics including mean, median, variance, the 10th (Q10) and 90th (Q90) percentiles, minimum, and maximum values. Below are the calculated statistics for each feature:\n\n- Target Thickness\n  - Mean: 1.02\n  - Median: 0.593\n  - Variance: 16.9\n  - 10th Percentile (Q10): 0.273\n  - 25th Percentile (Q25): 0.482\n  - 75th Percentile (Q75): 0.769\n  - 90th Percentile (Q90): 1.0\n  - Min: 0\n  - Max: 125\n\n- Pulse Width\n  - Mean: 291\n  - Median: 30\n  - Variance: 1,030,000\n  - 10th Percentile (Q10): 30\n  - 25th Percentile (Q25): 30\n  - 75th Percentile (Q75): 279\n  - 90th Percentile (Q90): 475\n  - Min: 24\n  - Max: 12,900\n\n- Energy\n  - Mean: 13.9\n  - Median: 2.35\n  - Variance: 2,350\n  - 10th Percentile (Q10): 1.55\n  - 25th Percentile (Q25): 2.31\n  - 75th Percentile (Q75): 2.41\n  - 90th Percentile (Q90): 10\n  - Min: 0.302\n  - Max: 1,000\n\n- Spot Size\n  - Mean: 3.61\n  - Median: 3.3\n  - Variance: 13.7\n  - 10th Percentile (Q10): 3.3\n  - 25th Percentile (Q25): 3.3\n  - 75th Percentile (Q75): 3.3\n  - 90th Percentile (Q90): 3.3\n  - Min: 2.13\n  - Max: 60\n\n- Intensity\n  - Mean: 5.10e20\n  - Median: 6.22e20\n  - Variance: 3.96e41\n  - 10th Percentile (Q10): 4.53e19\n  - 25th Percentile (Q25): 6.83e19\n  - 75th Percentile (Q75): 6.44e20\n  - 90th Percentile (Q90): 6.59e20\n  - Min: 1.05e18\n  - Max: 5.59e21\n\n- Power\n  - Mean: 6.23e13\n  - Median: 7.68e13\n  - Variance: 4.03e27\n  - 10th Percentile (Q10): 5.59e12\n  - 25th Percentile (Q25): 8.45e12\n  - 75th Percentile (Q75): 7.94e13\n  - 90th Percentile (Q90): 8.14e13\n  - Min: 1.76e11\n  - Max: 3.83e14\n\n- Cutoff Energy\n  - Mean: 8.64\n  - Median: 4.8\n  - Variance: 156\n  - 10th Percentile (Q10): 4.0\n  - 25th Percentile (Q25): 4.4\n  - 75th Percentile (Q75): 6.2\n  - 90th Percentile (Q90): 11.7\n  - Min: 3.3\n  - Max: 95\n\n### Bivariate Statistics\nBelow are the calculated bivariate statistics for pairs of features:\n\n#### Target Thickness and Energy\n- Pearson Correlation: 0.250\n- Spearman Correlation: 0.391\n- Covariance: 4.98e1\n\n#### Pulse Width and Energy\n- Pearson Correlation: 0.343\n- Spearman Correlation: 0.150\n- Covariance: 1.69e4\n\n#### Spot Size and Energy\n- Pearson Correlation: 0.646\n- Spearman Correlation: -0.00389\n- Covariance: 1.16e2\n\n#### Intensity and Energy\n- Pearson Correlation: 0.397\n- Spearman Correlation: 0.567\n- Covariance: 1.21e22\n\n#### Power and Energy\n- Pearson Correlation: 0.584\n- Spearman Correlation: 0.609\n- Covariance: 1.80e15\n\n#### Cutoff Energy and Energy\n- Pearson Correlation: 0.672\n- Spearman Correlation: 0.563\n- Covariance: 4.07e2\n\n\n### Example Data Points\n[\"aluminium\", 5.0, 3000, 500.0, 60.0, 4.088E+18, 166700000000000, 29.0]\n[\"gold\", 4.0, 7600, 37.827, 2.552, 6.750E+19, 4977000000000, 7.2]\n[\"polypropylene\", 10.0, 500, 164.43, 4.746, 1.289E+21, 328900000000000, 49.25]\n[\"plastic\", 0.544, 30, 2.373, 3.3, 6.413E+20, 79090000000000, 5.5]\n[\"plastic\", 0.266, 30, 2.342, 3.3, 6.329E+20, 78050000000000, 4.0]\n\nStarting with cutoff_energy, determine the necessary intensity and power. Next, decide on spot_size, energy, and pulse_width. Finally, choose appropriate target_thickness and target_material. Generate 25 new data points by reversing the process. The final output should be a complete array of 25 samples, each with the following features: target_material, target_thickness, pulse_width, energy, spot_size, intensity, power, and cutoff_energy. Explicitly show all of the 25 generated samples inside an array."
+        }
+    ],
+    "metadata_gen": {
+        "N": 15,
+        "MODEL": "gpt-3.5-turbo-0125",
+        "ORG_FOLDER": "d_clean_remove_small_samples_ipr",
+        "ORG_SAMPLE_FILE": "rs_size_5",
+        "PROMPT_METHOD": "reverse_prompting",
+        "PROMPT_TEMPLATE": "1prompt_templates_system_stats.json",
+        "STATS": "d_clean_remove_small_samples_stats"
+    }
+}

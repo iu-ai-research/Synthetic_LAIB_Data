@@ -1,0 +1,47 @@
+{
+    "content": "```python\ndata_points = [\n    [\"aluminium\", 2.5, 2000, 250.0, 20.0, 1.534E+19, 75890000000000, 18.2],\n    [\"gold\", 5.4, 6700, 45.123, 3.777, 7.923E+19, 6678000000000, 8.7],\n    [\"copper\", 1.7, 4800, 89.32, 3.1, 1.239E+20, 147600000000000, 15.4],\n    [\"titanium\", 0.412, 50, 3.546, 3.8, 7.126E+20, 84500000000000, 6.1],\n    [\"iron\", 4.8, 6000, 124.89, 4.2, 1.234E+19, 97650000000000, 17.9],\n    [\"silver\", 3.1, 4000, 320.17, 2.9, 5.643E+19, 35980000000000, 23.6],\n    [\"aluminium\", 1.3, 1800, 198.7, 18.5, 9.133E+18, 48910000000000, 15.3],\n    [\"gold\", 6.2, 8000, 59.882, 3.125, 6.759E+19, 5187000000000, 7.3],\n    [\"copper\", 1.5, 4300, 76.42, 3.2, 1.425E+20, 166400000000000, 12.8],\n    [\"titanium\", 0.301, 70, 4.887, 4.0, 8.346E+20, 99300000000000, 7.9],\n    [\"iron\", 5.1, 5800, 139.03, 4.5, 1.383E+19, 104200000000000, 18.7],\n    [\"silver\", 3.7, 3700, 290.54, 3.1, 5.999E+19, 39920000000000, 22.1],\n    [\"aluminium\", 1.9, 2500, 210.4, 19.3, 1.212E+19, 61800000000000, 16.5],\n    [\"gold\", 5.9, 7200, 51.109, 3.546, 7.632E+19, 6389000000000, 8.1],\n    [\"copper\", 1.8, 4700, 84.91, 3.0, 1.382E+20, 157800000000000, 14.2],\n    [\"titanium\", 0.388, 60, 4.215, 3.9, 7.542E+20, 89800000000000, 6.7],\n    [\"iron\", 4.6, 6200, 118.75, 4.4, 1.582E+19, 115600000000000, 16.9],\n    [\"silver\", 2.9, 4200, 263.88, 3.3, 5.219E+19, 41870000000000, 21.4],\n    [\"aluminium\", 2.0, 1800, 201.2, 20.0, 1.432E+19, 68890000000000, 15.7],\n    [\"gold\", 5.8, 6900, 48.287, 3.689, 7.246E+19, 5987000000000, 7.7],\n    [\"copper\", 1.6, 4500, 81.75, 3.1, 1.359E+20, 171400000000000, 13.6],\n    [\"titanium\", 0.355, 55, 4.601, 3.6, 7.926E+20, 92000000000000, 7.3],\n    [\"iron\", 4.9, 5900, 127.68, 4.3, 1.437E+19, 109800000000000, 17.5],\n    [\"silver\", 3.3, 3800, 275.49, 3.2, 5.392E+19, 37870000000000, 22.8],\n    [\"aluminium\", 2.3, 1900, 205.3, 19.7, 1.288E+19, 65890000000000, 16.1]\n]\n\ndata_points\n```",
+    "api_obj": {
+        "id": "chatcmpl-9afEUebMrKMHRLnpTdyRe7r7BpG8L",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "```python\ndata_points = [\n    [\"aluminium\", 2.5, 2000, 250.0, 20.0, 1.534E+19, 75890000000000, 18.2],\n    [\"gold\", 5.4, 6700, 45.123, 3.777, 7.923E+19, 6678000000000, 8.7],\n    [\"copper\", 1.7, 4800, 89.32, 3.1, 1.239E+20, 147600000000000, 15.4],\n    [\"titanium\", 0.412, 50, 3.546, 3.8, 7.126E+20, 84500000000000, 6.1],\n    [\"iron\", 4.8, 6000, 124.89, 4.2, 1.234E+19, 97650000000000, 17.9],\n    [\"silver\", 3.1, 4000, 320.17, 2.9, 5.643E+19, 35980000000000, 23.6],\n    [\"aluminium\", 1.3, 1800, 198.7, 18.5, 9.133E+18, 48910000000000, 15.3],\n    [\"gold\", 6.2, 8000, 59.882, 3.125, 6.759E+19, 5187000000000, 7.3],\n    [\"copper\", 1.5, 4300, 76.42, 3.2, 1.425E+20, 166400000000000, 12.8],\n    [\"titanium\", 0.301, 70, 4.887, 4.0, 8.346E+20, 99300000000000, 7.9],\n    [\"iron\", 5.1, 5800, 139.03, 4.5, 1.383E+19, 104200000000000, 18.7],\n    [\"silver\", 3.7, 3700, 290.54, 3.1, 5.999E+19, 39920000000000, 22.1],\n    [\"aluminium\", 1.9, 2500, 210.4, 19.3, 1.212E+19, 61800000000000, 16.5],\n    [\"gold\", 5.9, 7200, 51.109, 3.546, 7.632E+19, 6389000000000, 8.1],\n    [\"copper\", 1.8, 4700, 84.91, 3.0, 1.382E+20, 157800000000000, 14.2],\n    [\"titanium\", 0.388, 60, 4.215, 3.9, 7.542E+20, 89800000000000, 6.7],\n    [\"iron\", 4.6, 6200, 118.75, 4.4, 1.582E+19, 115600000000000, 16.9],\n    [\"silver\", 2.9, 4200, 263.88, 3.3, 5.219E+19, 41870000000000, 21.4],\n    [\"aluminium\", 2.0, 1800, 201.2, 20.0, 1.432E+19, 68890000000000, 15.7],\n    [\"gold\", 5.8, 6900, 48.287, 3.689, 7.246E+19, 5987000000000, 7.7],\n    [\"copper\", 1.6, 4500, 81.75, 3.1, 1.359E+20, 171400000000000, 13.6],\n    [\"titanium\", 0.355, 55, 4.601, 3.6, 7.926E+20, 92000000000000, 7.3],\n    [\"iron\", 4.9, 5900, 127.68, 4.3, 1.437E+19, 109800000000000, 17.5],\n    [\"silver\", 3.3, 3800, 275.49, 3.2, 5.392E+19, 37870000000000, 22.8],\n    [\"aluminium\", 2.3, 1900, 205.3, 19.7, 1.288E+19, 65890000000000, 16.1]\n]\n\ndata_points\n```",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1718525334,
+        "model": "gpt-3.5-turbo-0125",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "usage": {
+            "completion_tokens": 1100,
+            "prompt_tokens": 1544,
+            "total_tokens": 2644
+        }
+    },
+    "inputs": [
+        {
+            "role": "system",
+            "content": "You are tasked with generating synthetic data for laser-accelerated ion beams. The dataset includes the following features: target_material, target_thickness, pulse_width, energy, spot_size, intensity, power, and cutoff_energy. Note that the data is not normally distributed. Below are key univariate statistics for each feature followed by some example data points:\n\n1. Identify the target_material and its distribution.\n2. Determine the typical ranges for target_thickness.\n3. Analyze the correlation between pulse_width and energy.\n4. Examine how spot_size influences intensity and power.\n5. Derive cutoff_energy based on the above parameters.\n\nExamples:"
+        },
+        {
+            "role": "user",
+            "content": "### Statistics\n### Univariate Statistics\nThe dataset consists of several numeric features, each described by key univariate statistics including mean, median, variance, the 10th (Q10) and 90th (Q90) percentiles, minimum, and maximum values. Below are the calculated statistics for each feature:\n\n- Target Thickness\n  - Mean: 1.02\n  - Median: 0.593\n  - Variance: 16.9\n  - 10th Percentile (Q10): 0.273\n  - 25th Percentile (Q25): 0.482\n  - 75th Percentile (Q75): 0.769\n  - 90th Percentile (Q90): 1.0\n  - Min: 0\n  - Max: 125\n\n- Pulse Width\n  - Mean: 291\n  - Median: 30\n  - Variance: 1,030,000\n  - 10th Percentile (Q10): 30\n  - 25th Percentile (Q25): 30\n  - 75th Percentile (Q75): 279\n  - 90th Percentile (Q90): 475\n  - Min: 24\n  - Max: 12,900\n\n- Energy\n  - Mean: 13.9\n  - Median: 2.35\n  - Variance: 2,350\n  - 10th Percentile (Q10): 1.55\n  - 25th Percentile (Q25): 2.31\n  - 75th Percentile (Q75): 2.41\n  - 90th Percentile (Q90): 10\n  - Min: 0.302\n  - Max: 1,000\n\n- Spot Size\n  - Mean: 3.61\n  - Median: 3.3\n  - Variance: 13.7\n  - 10th Percentile (Q10): 3.3\n  - 25th Percentile (Q25): 3.3\n  - 75th Percentile (Q75): 3.3\n  - 90th Percentile (Q90): 3.3\n  - Min: 2.13\n  - Max: 60\n\n- Intensity\n  - Mean: 5.10e20\n  - Median: 6.22e20\n  - Variance: 3.96e41\n  - 10th Percentile (Q10): 4.53e19\n  - 25th Percentile (Q25): 6.83e19\n  - 75th Percentile (Q75): 6.44e20\n  - 90th Percentile (Q90): 6.59e20\n  - Min: 1.05e18\n  - Max: 5.59e21\n\n- Power\n  - Mean: 6.23e13\n  - Median: 7.68e13\n  - Variance: 4.03e27\n  - 10th Percentile (Q10): 5.59e12\n  - 25th Percentile (Q25): 8.45e12\n  - 75th Percentile (Q75): 7.94e13\n  - 90th Percentile (Q90): 8.14e13\n  - Min: 1.76e11\n  - Max: 3.83e14\n\n- Cutoff Energy\n  - Mean: 8.64\n  - Median: 4.8\n  - Variance: 156\n  - 10th Percentile (Q10): 4.0\n  - 25th Percentile (Q25): 4.4\n  - 75th Percentile (Q75): 6.2\n  - 90th Percentile (Q90): 11.7\n  - Min: 3.3\n  - Max: 95\n\n### Bivariate Statistics\nBelow are the calculated bivariate statistics for pairs of features:\n\n#### Target Thickness and Energy\n- Pearson Correlation: 0.250\n- Spearman Correlation: 0.391\n- Covariance: 4.98e1\n\n#### Pulse Width and Energy\n- Pearson Correlation: 0.343\n- Spearman Correlation: 0.150\n- Covariance: 1.69e4\n\n#### Spot Size and Energy\n- Pearson Correlation: 0.646\n- Spearman Correlation: -0.00389\n- Covariance: 1.16e2\n\n#### Intensity and Energy\n- Pearson Correlation: 0.397\n- Spearman Correlation: 0.567\n- Covariance: 1.21e22\n\n#### Power and Energy\n- Pearson Correlation: 0.584\n- Spearman Correlation: 0.609\n- Covariance: 1.80e15\n\n#### Cutoff Energy and Energy\n- Pearson Correlation: 0.672\n- Spearman Correlation: 0.563\n- Covariance: 4.07e2\n\n\n### Example Data Points\n[\"aluminium\", 5.0, 3000, 500.0, 60.0, 4.088E+18, 166700000000000, 29.0]\n[\"gold\", 4.0, 7600, 37.827, 2.552, 6.750E+19, 4977000000000, 7.2]\n[\"polypropylene\", 10.0, 500, 164.43, 4.746, 1.289E+21, 328900000000000, 49.25]\n[\"plastic\", 0.544, 30, 2.373, 3.3, 6.413E+20, 79090000000000, 5.5]\n[\"plastic\", 0.266, 30, 2.342, 3.3, 6.329E+20, 78050000000000, 4.0]\n\nUsing this skeleton, generate a new set of 25 data points. The final output should be a complete array of 25 samples, each with the following features: target_material, target_thickness, pulse_width, energy, spot_size, intensity, power, and cutoff_energy. Explicitly show all of the 25 generated samples inside an array."
+        }
+    ],
+    "metadata_gen": {
+        "N": 15,
+        "MODEL": "gpt-3.5-turbo-0125",
+        "ORG_FOLDER": "d_clean_remove_small_samples_ipr",
+        "ORG_SAMPLE_FILE": "rs_size_5",
+        "PROMPT_METHOD": "skeleton_of_thought",
+        "PROMPT_TEMPLATE": "1prompt_templates_system_stats.json",
+        "STATS": "d_clean_remove_small_samples_stats"
+    }
+}

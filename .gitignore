@@ -1,0 +1,7 @@
+.env
+.prettierrc
+__pycache__
+.venv
+archive
+NOTE
+synthetic_analysis
