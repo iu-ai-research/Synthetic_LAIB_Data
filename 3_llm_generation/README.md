@@ -17,7 +17,7 @@
 
 #### In case there's no access to a GUI (e.g running on a remote server) one can use the `generate_server.py` file
 
-1. Define the same required settings as in 3-6 for the jupyter notebook.
+1. Define the same required settings as in step 3. to 6. for the jupyter notebook.
 2. Run python generate_server.py and the generation process will be printed out to the console output.
 3. Once the run is complete you should see  "************* Finished #N/#N generations! *************"
 4. You can run the script once more time, the script will check if all N samples were successfully created and if not generate up to the N amount.

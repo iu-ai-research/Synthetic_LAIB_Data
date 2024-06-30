@@ -1,4 +1,4 @@
-# Sample Preperation
+# Sample Preparation
 
 ### Info
 
