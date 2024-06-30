@@ -27,4 +27,12 @@ In the `api_handler.py` additional arguments can be passed specifically for the 
 `num_ctx` and `num_predict` were kept at 8192 for all models since the largest prompt token size (rs_size_150) can be nearly 8K tokens and would otherwise cutt off. Smaller models that are not trained on such large context will indeed struggle
 to properly produce results beyond the context that they are able to produce or trained on. However this is accounted for in the results and also shows the different capabilities of the various models when they stop working.
 
+### Ollama API
 For more information on the values that can be passed to the ollama api in the `api_handler.py` see the official ollama git repository: https://github.com/ollama/ollama/blob/main/docs/api.md
+
+### Anthropic API
+Anthropic python module documentation: https://pypi.org/project/anthropic/
+
+### OpenAI API
+The Official OpenAI python module documentation: https://github.com/openai/openai-python
+
