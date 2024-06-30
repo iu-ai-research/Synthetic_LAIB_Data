@@ -28,14 +28,17 @@ In the `api_handler.py` additional arguments can be passed specifically for the 
 to properly produce results beyond the context that they are able to produce or trained on. However this is accounted for in the results and also shows the different capabilities of the various models when they stop working.
 
 ### Ollama API
-For more information on the values that can be passed to the ollama api in the `api_handler.py` see the official ollama git repository: 
+For more information on the values that can be passed to the ollama api in the `api_handler.py` see the official ollama git repository:
+
 https://github.com/ollama/ollama/blob/main/docs/api.md
 
 ### Anthropic API
 Anthropic python module documentation: 
+
 https://pypi.org/project/anthropic/
 
 ### OpenAI API
 The Official OpenAI python module documentation: 
+
 https://github.com/openai/openai-python
 
