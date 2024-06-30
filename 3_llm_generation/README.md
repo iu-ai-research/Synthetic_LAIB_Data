@@ -21,3 +21,10 @@
 2. Run python generate_server.py and the generation process will be printed out to the console output.
 3. Once the run is complete you should see  "************* Finished #N/#N generations! *************"
 4. You can run the script once more time, the script will check if all N samples were successfully created and if not generate up to the N amount.
+
+### Changing API interaction
+In the `api_handler.py` additional arguments can be passed specifically for the api provider. For example one can set the num_batch to a lower number if local machine struggles or different num_thread to use more or less cpu.
+`num_ctx` and `num_predict` were kept at 8192 for all models since the largest prompt token size (rs_size_150) can be nearly 8K tokens and would otherwise cutt off. Smaller models that are not trained on such large context will indeed struggle
+to properly produce results beyond the context that they are able to produce or trained on. However this is accounted for in the results and also shows the different capabilities of the various models when they stop working.
+
+For more information on the values that can be passed to the ollama api in the `api_handler.py` see the official ollama git repository: https://github.com/ollama/ollama/blob/main/docs/api.md
