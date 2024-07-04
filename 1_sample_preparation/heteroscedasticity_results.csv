@@ -1,0 +1,8 @@
+Feature,p-value,Description
+intensity,1.6849755219233244e-103,Evidence of heteroscedasticity
+cutoff_energy,1.4484706894126958e-82,Evidence of heteroscedasticity
+spot_size,2.879040975270613e-29,Evidence of heteroscedasticity
+energy,8.753127676011737e-09,Evidence of heteroscedasticity
+target_thickness,6.499387070369386e-06,Evidence of heteroscedasticity
+pulse_width,1.0,No strong evidence
+power,1.0,No strong evidence
