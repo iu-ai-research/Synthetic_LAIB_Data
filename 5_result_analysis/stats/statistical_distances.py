@@ -1,97 +1,119 @@
 import numpy as np
 import pandas as pd
-from scipy.spatial import cKDTree
-from scipy.special import gamma
-from tqdm import tqdm
+from scipy.special import rel_entr
+from sklearn.metrics.pairwise import euclidean_distances
+from scipy.stats import wasserstein_distance
 
-def nearest_neighbor_distances(data, k):
-    tree = cKDTree(data)
-    distances, _ = tree.query(data, k=k+1)
-    return distances[:, -1]
-
-def kl_divergence_knn(original_data, synthetic_data, k=5):
-    n = len(original_data)
-    m = len(synthetic_data)
-    d = original_data.shape[1]
-
-    r_k = nearest_neighbor_distances(original_data, k)
-    s_k = nearest_neighbor_distances(synthetic_data, k)
-
-    # Ensure all distances are positive
-    r_k = np.maximum(r_k, 1e-10)
-    s_k = np.maximum(s_k, 1e-10)
-
-    # Convert distances to densities
-    const = (gamma(d / 2 + 1) / np.pi**(d / 2)) * (k / (n - 1))
-    p_k = const / r_k**d
-    q_k = const / s_k**d
-
-    term1 = np.sum(np.log(p_k / q_k))
-    term2 = n * np.log(m / (n - 1))
-
-    kl_div = (term1 + term2) / n
-
-    return max(kl_div, 0)  # Ensure non-negativity
-
-def kl_divergence_permutation_test_knn(original_data, synthetic_data, k=5, permutations=99):
-    # Adjust sample size to match the smaller dataset if synthetic data has more samples than original
-    if len(original_data) < len(synthetic_data):
-        synthetic_data = synthetic_data[:len(original_data)]
-    elif len(synthetic_data) < len(original_data):
-        original_data = original_data[:len(synthetic_data)]
-
-    observed_kl_div = kl_divergence_knn(original_data, synthetic_data, k)
-    print(f"Observed KL Divergence: {observed_kl_div}")
+def calculate_wasserstein_distance(x, y):
+    if len(x) == 0 or len(y) == 0:
+        return np.nan
     
-    combined_data = np.vstack([original_data, synthetic_data])
-    permuted_kl_divs = []
+    x = np.asarray(x)
+    y = np.asarray(y)
     
-    for i in tqdm(range(permutations), desc="KL Divergence Permutations"):
-        np.random.shuffle(combined_data)
-        permuted_original = combined_data[:len(original_data)]
-        permuted_synthetic = combined_data[len(original_data):]
-        permuted_kl_div = kl_divergence_knn(permuted_original, permuted_synthetic, k)
-        permuted_kl_divs.append(permuted_kl_div)
+    # Calculate Wasserstein distance for each dimension
+    distances = [wasserstein_distance(x[:, i], y[:, i]) for i in range(x.shape[1])]
     
-    permuted_kl_divs = np.array(permuted_kl_divs)
-    p_value = np.mean(permuted_kl_divs >= observed_kl_div)
+    # Return the average distance across all dimensions
+    return np.mean(distances)
+
+# Function to calculate KL Divergence with smoothing
+def calculate_kl_divergence(p, q, epsilon=1e-10):
+    p = p + epsilon
+    q = q + epsilon
+    p = p / np.sum(p)
+    q = q / np.sum(q)
+    return np.sum(rel_entr(p, q))
+
+# Function to calculate Maximum Mean Discrepancy (MMD)
+def calculate_mmd(x, y, sigma=1.0):
+    x = np.asarray(x)
+    y = np.asarray(y)
+    nx, ny = len(x), len(y)
+
+    gamma = 1.0 / (2 * sigma**2)
+
+    kxx = np.mean(np.exp(-gamma * euclidean_distances(x, x, squared=True)))
+    kyy = np.mean(np.exp(-gamma * euclidean_distances(y, y, squared=True)))
+    kxy = np.mean(np.exp(-gamma * euclidean_distances(x, y, squared=True)))
+
+    return kxx + kyy - 2 * kxy
+
+# Updated multivariate distance calculation
+def calculate_multivariate_distance(synthetic_data, original_data, method):
+    if len(synthetic_data) == 0 or len(original_data) == 0:
+        return np.nan
     
-    effect_size = observed_kl_div / np.sum(permuted_kl_divs) if np.sum(permuted_kl_divs) != 0 else 0
+    synthetic_data = np.asarray(synthetic_data)
+    original_data = np.asarray(original_data)
     
-    return observed_kl_div, p_value, effect_size
+    if method == 'kl':
+        hist_synthetic, _ = np.histogramdd(synthetic_data, bins=[10]*synthetic_data.shape[1], density=True)
+        hist_original, _ = np.histogramdd(original_data, bins=[10]*original_data.shape[1], density=True)
+        return calculate_kl_divergence(hist_synthetic.flatten(), hist_original.flatten())
+    elif method == 'wasserstein':
+        return calculate_wasserstein_distance(synthetic_data, original_data)
+    elif method == 'mmd':
+        return calculate_mmd(synthetic_data, original_data)
+    else:
+        raise ValueError(f"Unknown method: {method}")
 
-def ecdf(data, points):
-    """Compute the empirical cumulative distribution function (ECDF) at given points."""
-    return np.array([np.mean(np.all(data <= point, axis=1)) for point in points])
+# Updated main calculation loop
+def calculate_distances(scaled_df, grouping_columns, features):
+    results = {}
+    
+    for group, group_data in scaled_df[scaled_df['source'] == 'synthetic'].groupby(grouping_columns):
+        synthetic_data = group_data
+        original_data = scaled_df[scaled_df['source'] == 'original']
+        
+        # Count samples
+        n_samples = len(synthetic_data)
+        
+        # Multivariate calculations
+        synthetic_multivariate = synthetic_data[features].values
+        original_multivariate = original_data[features].values
 
-def multivariate_ks_test(X, Y, permutations=99):
-    n = len(X)
-    m = len(Y)
+        print(f"\nCalculating for group: {group}")
+        print(f"Original data shape: {original_multivariate.shape} || Synthetic data shape: {synthetic_multivariate.shape}")
+        
+        group_results = {
+            'n_samples': n_samples,
+            'multivariate_kl': calculate_multivariate_distance(synthetic_multivariate, original_multivariate, 'kl'),
+            'multivariate_wasserstein': calculate_multivariate_distance(synthetic_multivariate, original_multivariate, 'wasserstein'),
+            'multivariate_mmd': calculate_multivariate_distance(synthetic_multivariate, original_multivariate, 'mmd')
+        }
 
-    # Combine the data
-    combined_data = np.vstack([X, Y])
+        print(f"Results for group {group}: {group_results}")
+        
+        # Handle different grouping levels
+        if isinstance(group, tuple):
+            current_level = results
+            for level in group[:-1]:
+                if level not in current_level:
+                    current_level[level] = {}
+                current_level = current_level[level]
+            current_level[group[-1]] = group_results
+        else:
+            results[group] = group_results
+    
+    return results
 
-    # Compute the observed test statistic
-    ecdf_X = ecdf(X, combined_data)
-    ecdf_Y = ecdf(Y, combined_data)
-    D_nm = np.max(np.abs(ecdf_X - ecdf_Y))
-
-    # Permutation test
-    permuted_D = []
-    for i in tqdm(range(permutations), desc="KS Test Permutations"):
-        np.random.shuffle(combined_data)
-        perm_X = combined_data[:n]
-        perm_Y = combined_data[n:]
-        perm_ecdf_X = ecdf(perm_X, combined_data)
-        perm_ecdf_Y = ecdf(perm_Y, combined_data)
-        perm_D_nm = np.max(np.abs(perm_ecdf_X - perm_ecdf_Y))
-        permuted_D.append(perm_D_nm)
-
-    # Calculate p-value
-    permuted_D = np.array(permuted_D)
-    p_value = np.mean(permuted_D >= D_nm)
-
-    # Calculate effect size
-    effect_size = D_nm / np.sqrt(n * m / (n + m))
-
-    return D_nm, p_value, effect_size
+# Updated function to convert nested dictionary to DataFrame
+def nested_dict_to_df(d, index_names):
+    rows = []
+    def process_dict(current_dict, current_row):
+        if isinstance(current_dict, dict):
+            if all(isinstance(v, (int, float)) for v in current_dict.values()):
+                # This is a leaf node with metric values
+                rows.append(current_row + list(current_dict.values()))
+            else:
+                for key, value in current_dict.items():
+                    new_row = current_row + [key]
+                    process_dict(value, new_row)
+        else:
+            # This handles the case where a value might be a single number
+            rows.append(current_row + [current_dict])
+    
+    process_dict(d, [])
+    df = pd.DataFrame(rows, columns=index_names + ['n_samples', 'KL Divergence', 'Wasserstein', 'MMD'])
+    return df
