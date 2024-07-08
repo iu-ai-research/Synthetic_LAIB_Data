@@ -4,6 +4,9 @@
 
 ## Purpose
 
+## Original Dataset Overview - Laser-Accelerated Ion Beam Data
+...
+
 # Experimental Design
 ## Layout
 
@@ -25,11 +28,23 @@
 ### Evaluation of Synthetic Data using ML Models
 ![Evaluation of Synthetic Data using ML Models](/media/Synth_Evaluate_Models.jpg)
 
-# How to Use
+
+# Model Training on Synthetic Data
+...
+
+# How to get started
+## Dependencies for using the Jupyter Notebooks - Note if no CUDA GPU is present it will default to use CPU (slow).
 ### Using External 3rd Party API Providers (e.g. openai or anthropic)
 Rename the file `.env.bkp` to `.env` and put the API keys of the providers in the file.
 
 ### Install Notebook Modules
 `pip install -r requirements.txt`
 
+# Reflection
+...
 
+# Conclusion
+...
+
+# Disclaimer
+The developed application is licensed under the GNU General Public License.
