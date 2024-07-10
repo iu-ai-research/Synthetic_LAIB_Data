@@ -5,7 +5,9 @@
 ## Purpose
 
 ## Original Dataset Overview - Laser-Accelerated Ion Beam Data
-...
+The original dataset hereby refered to as the LAIB dataset is a compilation of various experimental studies that are unified in this LAIB dataset in the Master Thesis research of Bach-Ptaszek, (2024).
+The experimental data originates from the following sources: 
+Brenner et al., 2011; Busold, 2014; Fang et al., 2016; Flacco et al., 2010; Flippo et al., 2008; Fuchs et al., 2006; Gao, n.d.; Grishin, 2010; Hornung et al., 2020; Noaman-ul-Haq et al., 2018; Pirozhkov et al., 2010; Robson et al., 2007; Steinke et al., 2020; Zeil et al., 2010; Zepf et al., 2001; Zulick et al., 2013
 
 # Experimental Design
 ## Layout
