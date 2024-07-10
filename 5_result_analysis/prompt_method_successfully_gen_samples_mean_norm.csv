@@ -1,0 +1,13 @@
+prompt_method,extracted_data_len
+rephrase_and_respond,0.6377777777777778
+emotion_prompt,0.6281851851851852
+generated_knowledge,0.6027777777777777
+self_consistency,0.575962441314554
+directional_stimuli,0.5630144927536231
+skeleton_of_thought,0.5516190476190476
+recursive_criticism_and_improvement,0.4660370370370371
+least_to_most,0.46062962962962967
+step_back_prompting,0.4326666666666667
+chain_of_verification,0.4117037037037037
+chain_of_thought,0.4099809523809524
+reverse_prompting,0.3711173708920188
