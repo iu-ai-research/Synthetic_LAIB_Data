@@ -2,6 +2,16 @@
 
 ### Thesis: Synthetic Data using Large Language Model for Laser-Accelerated Ion Beams (LAIB)
 
+## Abstract
+The thesis investigates the efficacy of large language models in generating synthetic data for LAIB research. By evaluating various models and techniques, the study demonstrates how synthetic data can be used to enhance research in areas plagued by data scarcity.
+
+## Keywords
+- Large Language Models (LLMs)
+- Synthetic Data Generation
+- Laser-Accelerated Ion Beams (LAIBs)
+- Prompt Engineering
+- Data Analysis
+
 ## Purpose
 This repository hosts the code, data, and analysis used for generating synthetic data for Laser-Accelerated Ion Beams (LAIB) using large language models (LLMs). The project aims to explore the potential of LLMs in addressing data scarcity issues in LAIB research by creating high-quality synthetic datasets.
 
@@ -99,16 +109,6 @@ These results confirm the potential of LLMs, particularly larger, more advanced 
 
 ## Acknowledgments
 Special thanks to my academic advisor, family, and peers for their support and encouragement throughout this journey. Their invaluable guidance has greatly contributed to the success of this project.
-
-## Abstract
-The thesis investigates the efficacy of large language models in generating synthetic data for LAIB research. By evaluating various models and techniques, the study demonstrates how synthetic data can be used to enhance research in areas plagued by data scarcity.
-
-## Keywords
-- Large Language Models (LLMs)
-- Synthetic Data Generation
-- Laser-Accelerated Ion Beams (LAIBs)
-- Prompt Engineering
-- Data Analysis
 
 ## Disclaimer
 The developed application and all associated content are licensed under the GNU General Public License.
