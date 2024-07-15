@@ -21,26 +21,32 @@ The experimental design involves detailed exploratory data analysis (EDA) and co
 
 #### TSNA Mechanism
 Visual depiction of the Target Normal Sheath Acceleration (TNSA) mechanism, illustrating its fundamental processes and applications.
+
 ![TSNA Mechanism](/media/TNSA_OWN_DEPICTION.jpg)
 
 #### Experimental Design
 Diagram detailing the setup used in LAIB experiments, highlighting major components and their interconnections.
+
 ![Experimental Design](/media/experimental_design.jpg)
 
 #### History of LLMs
 Timeline showing the evolution of Large Language Models, marking significant milestones and developments.
+
 ![History of LLMs](/media/history_llm.jpg)
 
 #### Process Overview
 Flowchart outlining the steps involved in the generation and evaluation of synthetic data using LLMs.
+
 ![Process Overview](/media/process_overview.jpg)
 
 #### Prompt Design
 Schematic of the different prompting strategies employed in the thesis to optimize synthetic data generation.
+
 ![Prompt Design](/media/prompt_design.jpg)
 
 #### Evaluation of Synthetic Data using ML Models
 Graphical representation of the methods used to evaluate the quality and efficacy of the generated synthetic data.
+
 ![Evaluation of Synthetic Data using ML Models](/media/Synth_Evaluate_Models.jpg)
 
 ## Model Training on Synthetic Data
