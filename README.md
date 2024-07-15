@@ -11,7 +11,7 @@ The thesis investigates the efficacy of large language models in generating synt
 This repository hosts the code, data, and analysis used for generating synthetic data for Laser-Accelerated Ion Beams (LAIB) using large language models (LLMs). The project aims to explore the potential of LLMs in addressing data scarcity issues in LAIB research by creating high-quality synthetic datasets.
 
 ## Original Dataset Overview - Laser-Accelerated Ion Beam Data
-This LAIB dataset,found here `1_sample_preparation/source/d_full_clean.csv`, used in this study is a compilation of the results from multiple studies. Overall the data from these various sources is not homogeneous in terms of the quality. The research of Bach-Ptaszek, (2024) study performed the cleaning of these datasets and unified it into the one used here. The experimental data originates from the following sources: 
+This LAIB dataset (`1_sample_preparation/source/d_full_clean.csv`), used in this study is a compilation of the results from multiple studies. Overall the data from these various sources is not homogeneous in terms of the quality. The research of Bach-Ptaszek, (2024) study performed the cleaning of these datasets and unified it into the one used here. The experimental data originates from the following sources: 
 Brenner et al., 2011; Busold, 2014; Fang et al., 2016; Flacco et al., 2010; Flippo et al., 2008; Fuchs et al., 2006; Gao, n.d.; Grishin, 2010; Hornung et al., 2020; Noaman-ul-Haq et al., 2018; Pirozhkov et al., 2010; Robson et al., 2007; Steinke et al., 2020; Zeil et al., 2010; Zepf et al., 2001; Zulick et al., 2013
 
 
