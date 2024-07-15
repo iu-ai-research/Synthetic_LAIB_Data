@@ -78,18 +78,6 @@ pip install -r requirements.txt
 
 For utilizing LLMs, rename `.env.bkp` to `.env` and insert the necessary API keys.
 
-## Reflection
-Throughout this thesis, I have delved into the complex world of synthetic data generation using a variety of large language models. This experience has pushed the boundaries of my technical skills and deepened my understanding of the nuanced interplay between different computational techniques. I engaged with a multitude of models, each requiring unique strategies for integration and optimization, which highlighted the versatility and challenges of working in the rapidly evolving field of AI.
-
-The process of assessing the quality of synthetic data introduced me to a sophisticated array of evaluation methods. I explored quantitative metrics like KL-Divergence, Wasserstein distance, and Maximum Mean Discrepancy, alongside rigorous hypothesis testing to validate the data's statistical integrity. The use of machine learning models to compare synthetic data against real datasets was particularly illuminating, providing concrete evidence of the synthetic data's utility.
-
-Moreover, visualizing these complex datasets required a thoughtful approach to effectively communicate findings. Creating meaningful visualizations that could clearly illustrate the relationships and discrepancies between synthetic and original data was both challenging and rewarding. This visual component not only enhanced my analytical skills but also improved my ability to convey complex information in an accessible manner.
-
-This comprehensive exposure to diverse methodologies has not only refined my technical prowess but has also prepared me for future challenges in data science. The skills gained are invaluable for my ongoing development as a scientist, equipped to tackle complex problems with a robust toolkit.
-
-## Conclusion
-This research underscores the significant potential of LLMs to generate synthetic data that can help overcome the challenges of data scarcity in LAIB studies. The findings suggest that with precise prompt engineering and rigorous evaluation methods, LLMs can be effectively used to augment experimental datasets.
-
 ## Results Summary
 This section provides a detailed summary of the key performance metrics evaluated in the thesis, focusing on KL-Divergence distance, Wasserstein distance, Maximum Mean Discrepancy (MMD), and hypothesis testing outcomes for multivariate KL-Divergence and Kolmogorov-Smirnov tests, along with the performance of machine learning models trained on synthetic data.
 
@@ -108,6 +96,18 @@ This section provides a detailed summary of the key performance metrics evaluate
 
 ### Implications and Future Directions
 These results confirm the potential of LLMs, particularly larger, more advanced models like Claude 3.5 Sonnet, in generating highly accurate synthetic data for complex scientific datasets like LAIB. The discrepancies highlighted by the Kolmogorov-Smirnov test underscore the need for continuous refinement of synthetic data generation techniques, especially in capturing extremities and tail behaviors of distributions. The successful application of synthetic data in machine learning model training also suggests promising avenues for enhancing experimental setups and computational simulations in laser-accelerated ion beam studies and beyond.
+
+## Reflection
+Throughout this thesis, I have delved into the complex world of synthetic data generation using a variety of large language models. This experience has pushed the boundaries of my technical skills and deepened my understanding of the nuanced interplay between different computational techniques. I engaged with a multitude of models, each requiring unique strategies for integration and optimization, which highlighted the versatility and challenges of working in the rapidly evolving field of AI.
+
+The process of assessing the quality of synthetic data introduced me to a sophisticated array of evaluation methods. I explored quantitative metrics like KL-Divergence, Wasserstein distance, and Maximum Mean Discrepancy, alongside rigorous hypothesis testing to validate the data's statistical integrity. The use of machine learning models to compare synthetic data against real datasets was particularly illuminating, providing concrete evidence of the synthetic data's utility.
+
+Moreover, visualizing these complex datasets required a thoughtful approach to effectively communicate findings. Creating meaningful visualizations that could clearly illustrate the relationships and discrepancies between synthetic and original data was both challenging and rewarding. This visual component not only enhanced my analytical skills but also improved my ability to convey complex information in an accessible manner.
+
+This comprehensive exposure to diverse methodologies has not only refined my technical prowess but has also prepared me for future challenges in data science. The skills gained are invaluable for my ongoing development as a scientist, equipped to tackle complex problems with a robust toolkit.
+
+## Conclusion
+This research underscores the significant potential of LLMs to generate synthetic data that can help overcome the challenges of data scarcity in LAIB studies. The findings suggest that with precise prompt engineering and rigorous evaluation methods, LLMs can be effectively used to augment experimental datasets.
 
 ## Acknowledgments
 Special thanks to my academic advisor, family, and peers for their support and encouragement throughout this journey. Their invaluable guidance has greatly contributed to the success of this project.
