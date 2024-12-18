@@ -1,9 +1,9 @@
 # IU INTERNATIONAL UNIVERSITY OF APPLIED SCIENCES
 
-### Thesis: Synthetic Data using Large Language Model for Laser-Accelerated Ion Beams (LAIB)
+### Synthetic Data using Large Language Model for Laser-Accelerated Ion Beams (LAIB)
 
 ## Abstract
-The thesis investigates the efficacy of large language models in generating synthetic data for LAIB research. By evaluating various models and techniques, the study demonstrates how synthetic data can be used to enhance research in areas plagued by data scarcity.
+This research investigates the efficacy of large language models in generating synthetic data for LAIB research. By evaluating various models and techniques, the study demonstrates how synthetic data can be used to enhance research in areas plagued by data scarcity.
 
 **Keywords:** Large Language Models (LLMs), Synthetic Data Generation, Laser-Accelerated Ion Beams (LAIBs), Prompt Engineering, Data Analysis
 
